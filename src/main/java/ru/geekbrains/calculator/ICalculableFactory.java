@@ -1,0 +1,5 @@
+package ru.geekbrains.calculator;
+
+public interface ICalculableFactory {
+    Calculable create(int primaryArg, boolean logFlag);
+}
